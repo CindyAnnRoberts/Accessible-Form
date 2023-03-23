@@ -40,23 +40,23 @@
 
             <form action="https://wp.zybooks.com/form-viewer.php" method="post">
                 <label for="fullName" class="required">Full Name</label>
-                <input type="text" id="fullName" name="fullName" required></input>
+                <input type="text" id="fullName" name="fullName" required>
 
                 <label for="email" class="required">Email</label>
-                <input type="text" id="email" name="email" required></input>
+                <input type="text" id="email" name="email" required>
 
                 <label for="tel" class="required">Phone</label>
-                <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></input>
+                <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
                 <fieldset>
-                    <legend class="required" required>Prefered Contact Method</legend>
-                    <input type="radio" id="radio_phone" name="radio"></input>
+                    <legend class="required">Prefered Contact Method</legend>
+                    <input type="radio" id="radio_phone" name="radio">
                     <label for="radio_phone">Phone</label>
-                    <input type="radio" id="radio_email" name="radio"></input>
+                    <input type="radio" id="radio_email" name="radio">
                     <label for="radio_email">Email</label>
                 </fieldset>
 
-                <label for="myState" class="required">State of Residence</label>
+                <label for="myState">State of Residence</label>
                 <select name="myState" id="myState" required>
                     <option value="">-- Please Choose Your State --</option>
                     <option value="AL">Alabama</option>
@@ -112,7 +112,7 @@
                 </select>
 
 
-                <label class="required" required>Comments</label>
+                <label>Comments</label>
                 <textarea id="comments" name="comments" rows="8" cols="50"></textarea>
                 <input type="submit" value="Submit">
             </form>
